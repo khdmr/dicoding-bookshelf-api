@@ -1,0 +1,22 @@
+{
+  "name": "dicoding-bookshelf-api",
+  "version": "1.0.0",
+  "description": "Proyek Bookshelf API untuk keperluan submission tugas Dicoding di kelas Belajar Membuat Aplikasi Back-End untuk Pemula",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "khdmr",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9"
+  }
+}

@@ -4,6 +4,6 @@ const routes = [
       path: '/books',
       handler: () => {},
     },
-   ];
+];
     
 module.exports = routes;

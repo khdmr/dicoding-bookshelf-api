@@ -12,8 +12,8 @@ const addBookHandler = (request, h) => {
         readPage,
         reading
     } = request.payload
-    
-    if(name === null){
+
+    if(name === undefined || name === null){
         const response = h.response({
             status: "fail",
             message: "Gagal menambahkan buku. Mohon isi nama buku"

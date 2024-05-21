@@ -189,7 +189,7 @@ const deleteBookByIdHandler = (request, h) => {
 
   return h.response({
     status: 'success',
-    message: 'Buku berhasil diperbarui',
+    message: 'Buku berhasil dihapus',
   }).code(200);
 };
 

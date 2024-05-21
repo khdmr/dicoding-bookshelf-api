@@ -6,16 +6,16 @@ const init = async () => {
     port: 9000,
     host: 'localhost',
     routes: {
-        cors: {
-          origin: ['*'],
-        },
+      cors: {
+        origin: ['*'],
       },
+    },
   });
-  
+
   server.route(routes);
 
   await server.start();
   console.log(`Server berjalan pada ${server.info.uri}`);
 };
- 
+
 init();

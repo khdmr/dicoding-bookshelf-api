@@ -14,6 +14,11 @@ const routes = [
       path: '/books',
       handler: getAllBooksHandler,
     },
+    {
+      method: 'GET',
+      path: '/books/{bookId}',
+      handler: () => {},
+    },
 ];
     
 module.exports = routes;

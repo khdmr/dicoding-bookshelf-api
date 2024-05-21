@@ -48,6 +48,7 @@ const addBookHandler = (request, h) => {
         publisher,
         pageCount,
         readPage,
+        reading,
         finished,
         insertedAt,
         updatedAt

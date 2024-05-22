@@ -5,13 +5,15 @@ Ini adalah Proyek Tugas Akhir dari kelas **Belajar Membuat Aplikasi Back-End unt
 1. Clone atau Download File
 2. Buka File di Code Editor
 3. Run API dengan cara:  
-```
-npm run start
-```
-4. Daftar API yang bisa digunakan:    
-| Path | Method | Description |
-| --- | --- | --- |
-| **/books** | POST | Menyimpan buku |  
+  ```
+  npm run start
+  ```
+4. Daftar API yang bisa digunakan:
+
+  | Path | Method | Description |  
+  | --- | --- | --- |  
+  | **/books** | POST | Menyimpan buku |  
+
   Body Request:  
   ```
   {
@@ -32,7 +34,8 @@ npm run start
 
 | Path | Method | Description |
 | --- | --- | --- |
-| **/books/{bookID}** | PUT | Mengubah data buku |   
+| **/books/{bookID}** | PUT | Mengubah data buku |
+
   Body Request:
   ```
   {
